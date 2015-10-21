@@ -22,7 +22,7 @@ pod "ambisafe"
 
 ## Author
 
-charlieambisafe, charlie@ambisafe.co
+Charlie Fontana, charlie@ambisafe.co
 
 ## License
 

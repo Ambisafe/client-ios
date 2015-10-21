@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
 
   s.homepage         = "https://github.com/Ambisafe/client-ios"
   s.license          = 'MIT'
-  s.author           = { "charlieambisafe" => "charlie@ambisafe.co" }
+  s.author           = { "Charlie Fontana" => "charlie@ambisafe.co" }
   s.source           = { :git => "https://github.com/Ambisafe/client-ios.git", :tag => s.version.to_s }
 
   s.platform     = :ios, '9.0'
