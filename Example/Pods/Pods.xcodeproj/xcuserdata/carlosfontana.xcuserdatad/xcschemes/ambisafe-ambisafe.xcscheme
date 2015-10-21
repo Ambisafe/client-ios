@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '9E8795EFC4B0408C89ED08B1'
+               BlueprintIdentifier = '0134B1698CD4A74164309161'
                BlueprintName = 'ambisafe-ambisafe'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'ambisafe.bundle'>

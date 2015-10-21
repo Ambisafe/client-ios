@@ -7,25 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		101D3F5559673BFF0CA25CFD7B343268 /* ambisafe.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5599BB3251607312657A32384D15DEBA /* ambisafe.bundle */; };
 		14751A292CE304019D25E8F03D90DAF3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		36601140F63CFD38F29AD54F5E5B2D7A /* AmbisafeAccount.h in Headers */ = {isa = PBXBuildFile; fileRef = F7FBFEDE43D8E817665D9208E091BCCF /* AmbisafeAccount.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4657CD4043A4FAF92F1E223A74D1F05A /* AmbisafeService.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF3E4CB0309CE2680327C4DAD124D80 /* AmbisafeService.m */; };
-		46773E3A15979A4217C12306E127DA4C /* ambisafe-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D5C896A9C342321E5C5F9FD77B25FB21 /* ambisafe-dummy.m */; };
+		209CD6E138553812D33AB6979F0C4C8E /* AmbisafeTransaction.h in Headers */ = {isa = PBXBuildFile; fileRef = 48C98FF93EE1383D5F9183E500582620 /* AmbisafeTransaction.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4D87385D5AAB8494AD80EC0B2E515409 /* Pods-ambisafe_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C8A0D9BECFEA72B3E40CA5C1B5AED1F1 /* Pods-ambisafe_Example-dummy.m */; };
-		9EA2529E7459AED3858D96F53D01E8C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 		9EBD76B9FFFAD7BDE8350DBFDA1AAE2E /* Pods-ambisafe_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 170F4377CAE64E49803FFFDD3AECF1BD /* Pods-ambisafe_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4BCE7EF82A1C80B2A2953C14786DCC2 /* AmbisafeService.h in Headers */ = {isa = PBXBuildFile; fileRef = 65508803ED1BE6B9F96921F3CA0EB386 /* AmbisafeService.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A8E5A183D7B91002ABA3E0FD6F45ADB8 /* Pods-ambisafe_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7548EAAF353B9E3ACA7DE87FF9FE1DD6 /* Pods-ambisafe_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ACB4452699A5BF658124F4DF005A0B7B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		BCC8175B7939C62D08972396E0DED785 /* AmbisafeService.h in Headers */ = {isa = PBXBuildFile; fileRef = 44285B9E77999AB546B189AC439AA996 /* AmbisafeService.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CCC02412612317980D18F2C42BC61A99 /* AmbisafeAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0C5E17465A4C11C3B69AA0C6634BCC /* AmbisafeAccount.m */; };
-		CEFE546BB11F3FFC5A6D14A1E24D67E9 /* ambisafe.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5599BB3251607312657A32384D15DEBA /* ambisafe.bundle */; };
-		D8E77310A8A4E89746E89D37CE4ED251 /* AmbisafeTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = A51DF139E65D5E4E0360E03D1587107F /* AmbisafeTransaction.m */; };
-		D99453349C90CFE9D4B68703BBF588A9 /* AmbisafeTransaction.h in Headers */ = {isa = PBXBuildFile; fileRef = 23AEBA10FDD02F27E492FD2E548991EF /* AmbisafeTransaction.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DFE5C5A01BD82FDC00171174 /* ambisafe.js in Resources */ = {isa = PBXBuildFile; fileRef = DFE5C58E1BD7FB7A00171174 /* ambisafe.js */; };
-		DFE5C5A21BD82FFB00171174 /* ambisafe.js in Resources */ = {isa = PBXBuildFile; fileRef = DFE5C58E1BD7FB7A00171174 /* ambisafe.js */; };
-		DFE5C5A41BD8300600171174 /* ambisafe.js in Resources */ = {isa = PBXBuildFile; fileRef = DFE5C58E1BD7FB7A00171174 /* ambisafe.js */; };
+		ADDCDD504DC348ACB195E396D41E96C2 /* AmbisafeAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C8E22A4F9ED60DAD598083CBD7E8A0A /* AmbisafeAccount.m */; };
+		B72FCE37CAADC20982DD8A6F34362F8C /* AmbisafeAccount.h in Headers */ = {isa = PBXBuildFile; fileRef = E55B3C7050EF0A8D87260F986CA906A7 /* AmbisafeAccount.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7B2A17FAC4C22673817884E886D1775 /* AmbisafeService.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DD1B7E3D75C183B118CBF2AFF9BEC81 /* AmbisafeService.m */; };
+		CBC7C0A4CA2FB8C83C233424637406AA /* ambisafe-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D5C896A9C342321E5C5F9FD77B25FB21 /* ambisafe-dummy.m */; };
+		D03B7054AAE9D84D0DB6C4047047E39A /* ambisafe.js in Sources */ = {isa = PBXBuildFile; fileRef = A8517305091DFD86BEA237470D609290 /* ambisafe.js */; };
+		D218B0DC476F29D03B2331DCB66B4726 /* ambisafe-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 868D8897B37AF3513E17CA222285731F /* ambisafe-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB5066D91C5DECDDE53A18EC02557AF7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 		EFCE2301F513FF721A3CFAA6DAC01CA2 /* Pods-ambisafe_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 216FBF6F56A4D46454F760DC9A779DDA /* Pods-ambisafe_Tests-dummy.m */; };
-		FB2A0A479607D21909FEE4EB64A6D665 /* ambisafe-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 868D8897B37AF3513E17CA222285731F /* ambisafe-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0266F5B9EDF0F45B663694B68EF6AC2 /* AmbisafeTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DCDA7B334B53E0C7582D4929CD232F3 /* AmbisafeTransaction.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,21 +31,21 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 943629CF15B9EBA0570F963974DE578F;
+			remoteGlobalIDString = 1645AA4C698EFEDE4A1769A94B65B8E0;
 			remoteInfo = ambisafe;
 		};
-		531306701808769D6339D472B7CC0F6A /* PBXContainerItemProxy */ = {
+		47BADDF4351D3708E45366DC0CE57001 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B75314CDB30D75E18A11B388DC7DCA76;
+			remoteGlobalIDString = 920A04ABBE335785113DFC92657092F5;
 			remoteInfo = "ambisafe-ambisafe";
 		};
 		76AC77C5584BBD2294B995345B18FDA8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 943629CF15B9EBA0570F963974DE578F;
+			remoteGlobalIDString = 1645AA4C698EFEDE4A1769A94B65B8E0;
 			remoteInfo = ambisafe;
 		};
 /* End PBXContainerItemProxy section */
@@ -55,46 +53,54 @@
 /* Begin PBXFileReference section */
 		170F4377CAE64E49803FFFDD3AECF1BD /* Pods-ambisafe_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ambisafe_Tests-umbrella.h"; sourceTree = "<group>"; };
 		216FBF6F56A4D46454F760DC9A779DDA /* Pods-ambisafe_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ambisafe_Tests-dummy.m"; sourceTree = "<group>"; };
-		23AEBA10FDD02F27E492FD2E548991EF /* AmbisafeTransaction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AmbisafeTransaction.h; sourceTree = "<group>"; };
 		3B7BE887C656BD962B6EBF13424B20AD /* Pods-ambisafe_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ambisafe_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		44285B9E77999AB546B189AC439AA996 /* AmbisafeService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AmbisafeService.h; sourceTree = "<group>"; };
+		48C98FF93EE1383D5F9183E500582620 /* AmbisafeTransaction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AmbisafeTransaction.h; sourceTree = "<group>"; };
 		49341E22B836C350AB4CBA4101D3C8AC /* Pods-ambisafe_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ambisafe_Example.modulemap"; sourceTree = "<group>"; };
 		4FE3837210E0CD4F74892504065572B3 /* ambisafe-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ambisafe-prefix.pch"; sourceTree = "<group>"; };
 		5313219F300E3933E4D5F203F64C1391 /* Pods-ambisafe_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ambisafe_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		5599BB3251607312657A32384D15DEBA /* ambisafe.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ambisafe.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B47D573CA7019A47B4E46223CD8BA8A /* Pods_ambisafe_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ambisafe_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		65508803ED1BE6B9F96921F3CA0EB386 /* AmbisafeService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AmbisafeService.h; sourceTree = "<group>"; };
 		699DA3A7F1676E10FA5C67C74CA27B61 /* Pods-ambisafe_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ambisafe_Tests.modulemap"; sourceTree = "<group>"; };
+		6DCDA7B334B53E0C7582D4929CD232F3 /* AmbisafeTransaction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AmbisafeTransaction.m; sourceTree = "<group>"; };
 		731A257468229EF45D67421673A7117D /* Pods-ambisafe_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ambisafe_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		7512B74C6209829F823ABD369866CF3C /* Pods-ambisafe_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ambisafe_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7548EAAF353B9E3ACA7DE87FF9FE1DD6 /* Pods-ambisafe_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ambisafe_Example-umbrella.h"; sourceTree = "<group>"; };
 		80B3F8487A4F1CB2AB730AFFF7977A25 /* Pods-ambisafe_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ambisafe_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		868D8897B37AF3513E17CA222285731F /* ambisafe-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ambisafe-umbrella.h"; sourceTree = "<group>"; };
 		8807319B7593ABAC3AA6E91210F7135C /* Pods-ambisafe_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ambisafe_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		8F0C5E17465A4C11C3B69AA0C6634BCC /* AmbisafeAccount.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AmbisafeAccount.m; sourceTree = "<group>"; };
-		A51DF139E65D5E4E0360E03D1587107F /* AmbisafeTransaction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AmbisafeTransaction.m; sourceTree = "<group>"; };
+		8C8E22A4F9ED60DAD598083CBD7E8A0A /* AmbisafeAccount.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AmbisafeAccount.m; sourceTree = "<group>"; };
+		9DD1B7E3D75C183B118CBF2AFF9BEC81 /* AmbisafeService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AmbisafeService.m; sourceTree = "<group>"; };
+		A8517305091DFD86BEA237470D609290 /* ambisafe.js */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.javascript; path = ambisafe.js; sourceTree = "<group>"; };
 		ACB88101EC7F571DB77FD248CE6C9FAF /* Pods-ambisafe_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ambisafe_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B030C26A166839BA15436CD6CF1404C1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B1AA1132336A9FF40C1D1F455C1E9CD1 /* Pods-ambisafe_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ambisafe_Tests-resources.sh"; sourceTree = "<group>"; };
 		B3A67D2032315D7010F384D03C57640D /* ambisafe.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ambisafe.modulemap; sourceTree = "<group>"; };
 		B5E1BEA6E964D7DAFC85ED3777F1B90C /* ambisafe.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ambisafe.xcconfig; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BFF3E4CB0309CE2680327C4DAD124D80 /* AmbisafeService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AmbisafeService.m; sourceTree = "<group>"; };
 		C42015D278DB8C54D00CD30EC25E9BFB /* Pods-ambisafe_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ambisafe_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		C8A0D9BECFEA72B3E40CA5C1B5AED1F1 /* Pods-ambisafe_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ambisafe_Example-dummy.m"; sourceTree = "<group>"; };
 		C9A6D185F4F7ADD5251FE78287997694 /* ambisafe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ambisafe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5C896A9C342321E5C5F9FD77B25FB21 /* ambisafe-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ambisafe-dummy.m"; sourceTree = "<group>"; };
 		D8F9DAAD849D1D547270283768FDFFD4 /* Pods-ambisafe_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ambisafe_Example.release.xcconfig"; sourceTree = "<group>"; };
-		DFE5C58E1BD7FB7A00171174 /* ambisafe.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = ambisafe.js; path = ../../../../Pod/Classes/ambisafe.js; sourceTree = "<group>"; };
+		E55B3C7050EF0A8D87260F986CA906A7 /* AmbisafeAccount.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AmbisafeAccount.h; sourceTree = "<group>"; };
 		EB6AD5278444742BC606052C5E6F1904 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F1C922B90460CE7673510953E2ED9999 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F2BAEC51B7DEB24929D6FB4DC948828A /* Pods_ambisafe_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ambisafe_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F7FBFEDE43D8E817665D9208E091BCCF /* AmbisafeAccount.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AmbisafeAccount.h; sourceTree = "<group>"; };
 		FD788045647C0ECF78039CD10D80D955 /* Pods-ambisafe_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ambisafe_Example-resources.sh"; sourceTree = "<group>"; };
 		FEB28B1D535428249DFA916F42D9032B /* Pods-ambisafe_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ambisafe_Example-frameworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		19B5EB3759FB48E50134E052661CAA3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB5066D91C5DECDDE53A18EC02557AF7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		75454DE5FE461034689D39668C2F0782 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -111,15 +117,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D860A0EE3431A8382B4FA3595CDEE28B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9EA2529E7459AED3858D96F53D01E8C0 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DC561A8B53DDE99FEBDF9DF0D7CD2EE4 /* Frameworks */ = {
+		D5C46EF3D292599F4B25F2D2115DF730 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -132,7 +130,7 @@
 		0CB719BAD3ECDB6D6E8A577EBB0777FE /* ambisafe */ = {
 			isa = PBXGroup;
 			children = (
-				13355CFD1E6BFDE9C743FDDE3D0EDF19 /* Pod */,
+				D05A6BBF862DE405D32C99D4E3A07E57 /* Pod */,
 				7494F84DA0DEC26CFE378D8266A7F3BF /* Support Files */,
 			);
 			name = ambisafe;
@@ -157,14 +155,6 @@
 			path = "Target Support Files/Pods-ambisafe_Example";
 			sourceTree = "<group>";
 		};
-		13355CFD1E6BFDE9C743FDDE3D0EDF19 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				2C3A1586214ACA9BB78058F9A955CBF0 /* Classes */,
-			);
-			path = Pod;
-			sourceTree = "<group>";
-		};
 		271EA0C98FBE361A3E334C79ADDC1011 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -173,23 +163,9 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		2C3A1586214ACA9BB78058F9A955CBF0 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				F7FBFEDE43D8E817665D9208E091BCCF /* AmbisafeAccount.h */,
-				8F0C5E17465A4C11C3B69AA0C6634BCC /* AmbisafeAccount.m */,
-				44285B9E77999AB546B189AC439AA996 /* AmbisafeService.h */,
-				BFF3E4CB0309CE2680327C4DAD124D80 /* AmbisafeService.m */,
-				23AEBA10FDD02F27E492FD2E548991EF /* AmbisafeTransaction.h */,
-				A51DF139E65D5E4E0360E03D1587107F /* AmbisafeTransaction.m */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		7494F84DA0DEC26CFE378D8266A7F3BF /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				DFE5C58E1BD7FB7A00171174 /* ambisafe.js */,
 				B3A67D2032315D7010F384D03C57640D /* ambisafe.modulemap */,
 				B5E1BEA6E964D7DAFC85ED3777F1B90C /* ambisafe.xcconfig */,
 				D5C896A9C342321E5C5F9FD77B25FB21 /* ambisafe-dummy.m */,
@@ -228,6 +204,14 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		D05A6BBF862DE405D32C99D4E3A07E57 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				E1DC71F6B7EEBFB54F5824EE58D28777 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
 		D91B1358EF041B2BBE8232D1B07CADA5 /* Pods-ambisafe_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -244,6 +228,20 @@
 			);
 			name = "Pods-ambisafe_Tests";
 			path = "Target Support Files/Pods-ambisafe_Tests";
+			sourceTree = "<group>";
+		};
+		E1DC71F6B7EEBFB54F5824EE58D28777 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A8517305091DFD86BEA237470D609290 /* ambisafe.js */,
+				E55B3C7050EF0A8D87260F986CA906A7 /* AmbisafeAccount.h */,
+				8C8E22A4F9ED60DAD598083CBD7E8A0A /* AmbisafeAccount.m */,
+				65508803ED1BE6B9F96921F3CA0EB386 /* AmbisafeService.h */,
+				9DD1B7E3D75C183B118CBF2AFF9BEC81 /* AmbisafeService.m */,
+				48C98FF93EE1383D5F9183E500582620 /* AmbisafeTransaction.h */,
+				6DCDA7B334B53E0C7582D4929CD232F3 /* AmbisafeTransaction.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		ED70C6B6B18EEB9F25F215FABCC420CF /* Products */ = {
@@ -269,22 +267,22 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		2F2290EF876A390E1EBA6F82209D3196 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FB2A0A479607D21909FEE4EB64A6D665 /* ambisafe-umbrella.h in Headers */,
-				36601140F63CFD38F29AD54F5E5B2D7A /* AmbisafeAccount.h in Headers */,
-				BCC8175B7939C62D08972396E0DED785 /* AmbisafeService.h in Headers */,
-				D99453349C90CFE9D4B68703BBF588A9 /* AmbisafeTransaction.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		343AA788384C46E6920D8A5A62EADA3B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A8E5A183D7B91002ABA3E0FD6F45ADB8 /* Pods-ambisafe_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60271209C1F473D3D16A5913BE706802 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D218B0DC476F29D03B2331DCB66B4726 /* ambisafe-umbrella.h in Headers */,
+				B72FCE37CAADC20982DD8A6F34362F8C /* AmbisafeAccount.h in Headers */,
+				A4BCE7EF82A1C80B2A2953C14786DCC2 /* AmbisafeService.h in Headers */,
+				209CD6E138553812D33AB6979F0C4C8E /* AmbisafeTransaction.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,11 +297,29 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		1645AA4C698EFEDE4A1769A94B65B8E0 /* ambisafe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2047D776F656FFA92BEB33205D23460C /* Build configuration list for PBXNativeTarget "ambisafe" */;
+			buildPhases = (
+				6B30579F5CEBBAE0165144E15CF5DE65 /* Sources */,
+				19B5EB3759FB48E50134E052661CAA3D /* Frameworks */,
+				320E5C630BF6C41911C12013D98DC2D2 /* Resources */,
+				60271209C1F473D3D16A5913BE706802 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F603BE9364CFCFA2C74D02ED97F4751C /* PBXTargetDependency */,
+			);
+			name = ambisafe;
+			productName = ambisafe;
+			productReference = C9A6D185F4F7ADD5251FE78287997694 /* ambisafe.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		5D3E249EFF9BB69A26AA02D26BC589DC /* Pods-ambisafe_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6D2CF89A352F3093771CE104D2EFB306 /* Build configuration list for PBXNativeTarget "Pods-ambisafe_Tests" */;
 			buildPhases = (
-				DFE5C5A31BD8300100171174 /* Resources */,
 				747D943E2A88B26ADBC02EC4EF14A559 /* Sources */,
 				7DAFB5775A1116B0F2C884FA510597B5 /* Frameworks */,
 				EC9D3C4E7B17D6509DACA22109E836CB /* Headers */,
@@ -322,7 +338,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8D6C00B97A05053364211223A5C1B27A /* Build configuration list for PBXNativeTarget "Pods-ambisafe_Example" */;
 			buildPhases = (
-				DFE5C5A11BD82FF700171174 /* Resources */,
 				364E149AABE89E2470A0F4B15A06F0A4 /* Sources */,
 				75454DE5FE461034689D39668C2F0782 /* Frameworks */,
 				343AA788384C46E6920D8A5A62EADA3B /* Headers */,
@@ -337,31 +352,13 @@
 			productReference = 5B47D573CA7019A47B4E46223CD8BA8A /* Pods_ambisafe_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		943629CF15B9EBA0570F963974DE578F /* ambisafe */ = {
+		920A04ABBE335785113DFC92657092F5 /* ambisafe-ambisafe */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A5523EC1E0280691A8635532E8872F33 /* Build configuration list for PBXNativeTarget "ambisafe" */;
+			buildConfigurationList = 2BB2B423690E092A2507882613962373 /* Build configuration list for PBXNativeTarget "ambisafe-ambisafe" */;
 			buildPhases = (
-				1D07BEBC1C46496244B39C517CAC9AAB /* Resources */,
-				35249C4CC321C5F133C2F5A0A8B29E3B /* Sources */,
-				D860A0EE3431A8382B4FA3595CDEE28B /* Frameworks */,
-				2F2290EF876A390E1EBA6F82209D3196 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				7C588ADC1D48FD544D09539EE7978610 /* PBXTargetDependency */,
-			);
-			name = ambisafe;
-			productName = ambisafe;
-			productReference = C9A6D185F4F7ADD5251FE78287997694 /* ambisafe.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		B75314CDB30D75E18A11B388DC7DCA76 /* ambisafe-ambisafe */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0D1AE0C3F76037694B33D929303DA7F7 /* Build configuration list for PBXNativeTarget "ambisafe-ambisafe" */;
-			buildPhases = (
-				C1F9B44CCE0BFF504C0D46EABC6223EF /* Sources */,
-				DC561A8B53DDE99FEBDF9DF0D7CD2EE4 /* Frameworks */,
+				BA8CDDD683AC77529B192E00DB1C3F2B /* Sources */,
+				D5C46EF3D292599F4B25F2D2115DF730 /* Frameworks */,
+				5724A6ADBB4EEBDC1B072342A6CEB699 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -393,8 +390,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				943629CF15B9EBA0570F963974DE578F /* ambisafe */,
-				B75314CDB30D75E18A11B388DC7DCA76 /* ambisafe-ambisafe */,
+				1645AA4C698EFEDE4A1769A94B65B8E0 /* ambisafe */,
+				920A04ABBE335785113DFC92657092F5 /* ambisafe-ambisafe */,
 				695A800B6C9E0F3E627054E935D6606F /* Pods-ambisafe_Example */,
 				5D3E249EFF9BB69A26AA02D26BC589DC /* Pods-ambisafe_Tests */,
 			);
@@ -402,50 +399,41 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1D07BEBC1C46496244B39C517CAC9AAB /* Resources */ = {
+		320E5C630BF6C41911C12013D98DC2D2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DFE5C5A01BD82FDC00171174 /* ambisafe.js in Resources */,
-				CEFE546BB11F3FFC5A6D14A1E24D67E9 /* ambisafe.bundle in Resources */,
+				101D3F5559673BFF0CA25CFD7B343268 /* ambisafe.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DFE5C5A11BD82FF700171174 /* Resources */ = {
+		5724A6ADBB4EEBDC1B072342A6CEB699 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DFE5C5A21BD82FFB00171174 /* ambisafe.js in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DFE5C5A31BD8300100171174 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DFE5C5A41BD8300600171174 /* ambisafe.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		35249C4CC321C5F133C2F5A0A8B29E3B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				46773E3A15979A4217C12306E127DA4C /* ambisafe-dummy.m in Sources */,
-				CCC02412612317980D18F2C42BC61A99 /* AmbisafeAccount.m in Sources */,
-				4657CD4043A4FAF92F1E223A74D1F05A /* AmbisafeService.m in Sources */,
-				D8E77310A8A4E89746E89D37CE4ED251 /* AmbisafeTransaction.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		364E149AABE89E2470A0F4B15A06F0A4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				4D87385D5AAB8494AD80EC0B2E515409 /* Pods-ambisafe_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B30579F5CEBBAE0165144E15CF5DE65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBC7C0A4CA2FB8C83C233424637406AA /* ambisafe-dummy.m in Sources */,
+				D03B7054AAE9D84D0DB6C4047047E39A /* ambisafe.js in Sources */,
+				ADDCDD504DC348ACB195E396D41E96C2 /* AmbisafeAccount.m in Sources */,
+				B7B2A17FAC4C22673817884E886D1775 /* AmbisafeService.m in Sources */,
+				F0266F5B9EDF0F45B663694B68EF6AC2 /* AmbisafeTransaction.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,7 +445,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C1F9B44CCE0BFF504C0D46EABC6223EF /* Sources */ = {
+		BA8CDDD683AC77529B192E00DB1C3F2B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -467,36 +455,78 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		7C588ADC1D48FD544D09539EE7978610 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "ambisafe-ambisafe";
-			target = B75314CDB30D75E18A11B388DC7DCA76 /* ambisafe-ambisafe */;
-			targetProxy = 531306701808769D6339D472B7CC0F6A /* PBXContainerItemProxy */;
-		};
 		AC3AA948DA99071394BE0624B289FAF4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ambisafe;
-			target = 943629CF15B9EBA0570F963974DE578F /* ambisafe */;
+			target = 1645AA4C698EFEDE4A1769A94B65B8E0 /* ambisafe */;
 			targetProxy = 18D14D33851912549544C337F7FF3080 /* PBXContainerItemProxy */;
 		};
 		C51EBCF7B7160047A3CDD15C02DF72B4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ambisafe;
-			target = 943629CF15B9EBA0570F963974DE578F /* ambisafe */;
+			target = 1645AA4C698EFEDE4A1769A94B65B8E0 /* ambisafe */;
 			targetProxy = 76AC77C5584BBD2294B995345B18FDA8 /* PBXContainerItemProxy */;
+		};
+		F603BE9364CFCFA2C74D02ED97F4751C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ambisafe-ambisafe";
+			target = 920A04ABBE335785113DFC92657092F5 /* ambisafe-ambisafe */;
+			targetProxy = 47BADDF4351D3708E45366DC0CE57001 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		4355097251FB952C7929D6AEECF0E7BF /* Debug */ = {
+		2579B66B556611EE9E0F45E68D4D248C /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B5E1BEA6E964D7DAFC85ED3777F1B90C /* ambisafe.xcconfig */;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ambisafe/ambisafe-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ambisafe/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ambisafe/ambisafe.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = ambisafe;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		40E2C7AEFE3D272A17FAA213F54D654A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5E1BEA6E964D7DAFC85ED3777F1B90C /* ambisafe.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ambisafe/ambisafe-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ambisafe/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ambisafe/ambisafe.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ambisafe;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
@@ -599,6 +629,18 @@
 			};
 			name = Debug;
 		};
+		5FE2E5CB88C3B87F597EF9222A10E205 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5E1BEA6E964D7DAFC85ED3777F1B90C /* ambisafe.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = ambisafe;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 		685BD4E84C0509BCAF4FD5DEB5F816B0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 731A257468229EF45D67421673A7117D /* Pods-ambisafe_Tests.debug.xcconfig */;
@@ -663,6 +705,18 @@
 			};
 			name = Release;
 		};
+		8517B8B75655DAC1A2A33B2DC05D159D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5E1BEA6E964D7DAFC85ED3777F1B90C /* ambisafe.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = ambisafe;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
 		A0E99B984A7FBA57E0B22B0E648E9643 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5313219F300E3933E4D5F203F64C1391 /* Pods-ambisafe_Tests.release.xcconfig */;
@@ -693,80 +747,23 @@
 			};
 			name = Release;
 		};
-		B210E35A69EE64D8CD13B8F6BF4C3F0F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B5E1BEA6E964D7DAFC85ED3777F1B90C /* ambisafe.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/ambisafe/ambisafe-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ambisafe/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ambisafe/ambisafe.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = ambisafe;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		CE7ADF1E868A6CCA4231B16211ED0B6E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B5E1BEA6E964D7DAFC85ED3777F1B90C /* ambisafe.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = ambisafe;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		E6F39C8D69B2C34A16825A99B6F1BCDB /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B5E1BEA6E964D7DAFC85ED3777F1B90C /* ambisafe.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/ambisafe/ambisafe-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ambisafe/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ambisafe/ambisafe.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = ambisafe;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0D1AE0C3F76037694B33D929303DA7F7 /* Build configuration list for PBXNativeTarget "ambisafe-ambisafe" */ = {
+		2047D776F656FFA92BEB33205D23460C /* Build configuration list for PBXNativeTarget "ambisafe" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4355097251FB952C7929D6AEECF0E7BF /* Debug */,
-				CE7ADF1E868A6CCA4231B16211ED0B6E /* Release */,
+				40E2C7AEFE3D272A17FAA213F54D654A /* Debug */,
+				2579B66B556611EE9E0F45E68D4D248C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BB2B423690E092A2507882613962373 /* Build configuration list for PBXNativeTarget "ambisafe-ambisafe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8517B8B75655DAC1A2A33B2DC05D159D /* Debug */,
+				5FE2E5CB88C3B87F597EF9222A10E205 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -794,15 +791,6 @@
 			buildConfigurations = (
 				4E6A5C0BC9F51261D109A9D8EBE75050 /* Debug */,
 				53AB7FC266A9639AC8F22F62B3885865 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A5523EC1E0280691A8635532E8872F33 /* Build configuration list for PBXNativeTarget "ambisafe" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B210E35A69EE64D8CD13B8F6BF4C3F0F /* Debug */,
-				E6F39C8D69B2C34A16825A99B6F1BCDB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ambisafe: 1ba355c5efbb43f8c42500daf7cf5c5d8876d5ab
+  ambisafe: 6f2d5d6f90b67ff47cba7928cbfd7a576fb905c0
 
 COCOAPODS: 0.39.0

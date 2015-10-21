@@ -245,7 +245,7 @@
 			attributes = {
 				CLASSPREFIX = Ambisafe;
 				LastUpgradeCheck = 0700;
-				ORGANIZATIONNAME = charlieambisafe;
+				ORGANIZATIONNAME = Ambisafe;
 				TargetAttributes = {
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
