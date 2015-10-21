@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-ambisafe_Example.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-ambisafe_Tests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>ambisafe-ambisafe.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>ambisafe.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>5D3E249EFF9BB69A26AA02D26BC589DC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>695A800B6C9E0F3E627054E935D6606F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>943629CF15B9EBA0570F963974DE578F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B75314CDB30D75E18A11B388DC7DCA76</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

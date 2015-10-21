@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'ambisafe_Example', :exclusive => true do
+  pod "ambisafe", :path => "../"
+end
+
+target 'ambisafe_Tests', :exclusive => true do
+  pod "ambisafe", :path => "../"
+
+  
+end

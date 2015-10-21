@@ -1,0 +1,14 @@
+PODS:
+  - ambisafe (0.1.0)
+
+DEPENDENCIES:
+  - ambisafe (from `../`)
+
+EXTERNAL SOURCES:
+  ambisafe:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ambisafe: 1ba355c5efbb43f8c42500daf7cf5c5d8876d5ab
+
+COCOAPODS: 0.39.0

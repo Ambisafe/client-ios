@@ -1,0 +1,6 @@
+framework module ambisafe {
+  umbrella header "ambisafe-umbrella.h"
+
+  export *
+  module * { export * }
+}
