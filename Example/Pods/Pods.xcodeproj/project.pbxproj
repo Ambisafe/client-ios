@@ -21,6 +21,10 @@
 		CBC7C0A4CA2FB8C83C233424637406AA /* ambisafe-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D5C896A9C342321E5C5F9FD77B25FB21 /* ambisafe-dummy.m */; };
 		D03B7054AAE9D84D0DB6C4047047E39A /* ambisafe.js in Sources */ = {isa = PBXBuildFile; fileRef = A8517305091DFD86BEA237470D609290 /* ambisafe.js */; };
 		D218B0DC476F29D03B2331DCB66B4726 /* ambisafe-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 868D8897B37AF3513E17CA222285731F /* ambisafe-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DFB36AFD1BD929A200A8A9CA /* ambisafe.js in CopyFiles */ = {isa = PBXBuildFile; fileRef = A8517305091DFD86BEA237470D609290 /* ambisafe.js */; };
+		DFB36AFF1BD929B300A8A9CA /* ambisafe.js in Resources */ = {isa = PBXBuildFile; fileRef = A8517305091DFD86BEA237470D609290 /* ambisafe.js */; };
+		DFB36B001BD929BA00A8A9CA /* ambisafe.js in Resources */ = {isa = PBXBuildFile; fileRef = A8517305091DFD86BEA237470D609290 /* ambisafe.js */; };
+		DFB36B011BD929C000A8A9CA /* ambisafe.js in Resources */ = {isa = PBXBuildFile; fileRef = A8517305091DFD86BEA237470D609290 /* ambisafe.js */; };
 		EB5066D91C5DECDDE53A18EC02557AF7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 		EFCE2301F513FF721A3CFAA6DAC01CA2 /* Pods-ambisafe_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 216FBF6F56A4D46454F760DC9A779DDA /* Pods-ambisafe_Tests-dummy.m */; };
 		F0266F5B9EDF0F45B663694B68EF6AC2 /* AmbisafeTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DCDA7B334B53E0C7582D4929CD232F3 /* AmbisafeTransaction.m */; };
@@ -49,6 +53,19 @@
 			remoteInfo = ambisafe;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DFB36AFC1BD9299900A8A9CA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				DFB36AFD1BD929A200A8A9CA /* ambisafe.js in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		170F4377CAE64E49803FFFDD3AECF1BD /* Pods-ambisafe_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ambisafe_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -322,6 +339,7 @@
 			buildPhases = (
 				747D943E2A88B26ADBC02EC4EF14A559 /* Sources */,
 				7DAFB5775A1116B0F2C884FA510597B5 /* Frameworks */,
+				DFB36AFC1BD9299900A8A9CA /* CopyFiles */,
 				EC9D3C4E7B17D6509DACA22109E836CB /* Headers */,
 			);
 			buildRules = (
@@ -340,6 +358,7 @@
 			buildPhases = (
 				364E149AABE89E2470A0F4B15A06F0A4 /* Sources */,
 				75454DE5FE461034689D39668C2F0782 /* Frameworks */,
+				DFB36AFE1BD929AD00A8A9CA /* Resources */,
 				343AA788384C46E6920D8A5A62EADA3B /* Headers */,
 			);
 			buildRules = (
@@ -403,6 +422,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFB36B011BD929C000A8A9CA /* ambisafe.js in Resources */,
 				101D3F5559673BFF0CA25CFD7B343268 /* ambisafe.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,6 +431,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFB36B001BD929BA00A8A9CA /* ambisafe.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFB36AFE1BD929AD00A8A9CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFB36AFF1BD929B300A8A9CA /* ambisafe.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
