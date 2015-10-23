@@ -38,18 +38,58 @@
 @property (nonatomic, copy) NSString *privateKey;
 @property (nonatomic, copy) NSString *password;
 
+/*!
+ * Defines the Account constructor based on a container and a password.
+ *
+ * \param {NSDictionary} container.
+ * \param {NSString} password.
+ * \return none.
+ */
 - (AmbisafeAccount *)initWithContainer:(NSDictionary *)container password:(NSString *)password;
 
+/*!
+ * Instance method that signs a transaction.
+ *
+ * \param {AmbisafeTransaction} tx unsigned transaction: {hex:'...', fee:'...', sighashes:['...', '...']}.
+ * \return {AmbisafeTransaction} signed transaction.
+ */
 - (AmbisafeTransaction *)signTransaction:(AmbisafeTransaction *)tx;
 
+/*!
+ * Instance method that set a new password
+ *
+ * \param {NSString} password
+ * \return none.
+ */
 - (NSString *)setNewPassword:(NSString *)password;
 
+/*!
+ * Instance method that returns the Account's data in a JSON format
+ *
+ * \return {NSString} return the account data as NSString.
+ */
 - (NSString *)stringify;
 
+/*!
+ * Instance method that parse the Account's data
+ *
+ * \param {NSString} data return the account data as NSString
+ * \return none.
+ */
 - (NSString *)parse:(NSString *)data;
 
+/*!
+ * Instance method that get the Account's container as a NSObject
+ *
+ * \return {NSObject}
+ */
 - (NSObject *)getContainer;
 
+/*!
+ * Instance method that get the Account's container as NSString
+ *
+ * \return {NSString}
+ */
 - (NSString *)getStringContainer;
 
 @end

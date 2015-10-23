@@ -33,9 +33,25 @@
 @property (nonatomic, copy) NSArray *sighashes;
 @property (nonatomic, copy) NSArray *userSignatures;
 
+/*!
+ * Defines the Transaction constructor based on a JSON container.
+ *
+ * \param {NSDictionary} container.
+ * \return none.
+ */
 - (AmbisafeTransaction *)init:(NSDictionary *)json;
 
+/*!
+ * Instance method that returns the Transaction's data in a JSON format
+ *
+ * \return {NSString} return the account data as NSString.
+ */
 - (NSString *)stringify;
 
+/*!
+ * Instance method that returns the Transaction's data as a NSDictionary
+ *
+ * \return {NSString} return the account data as NSString.
+ */
 - (NSDictionary *)dictionaryReflectFromAttributes;
 @end
